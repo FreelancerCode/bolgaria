@@ -1,0 +1,130 @@
+.move-main.active {
+	visibility: hidden;
+}
+
+.move__right_t {
+	display: none;
+}
+
+header {
+	height: 100%;
+}
+
+h1 {
+	position: static;
+	font-size: 5.1rem;
+	letter-spacing: 1rem;
+	margin-top: 80px;
+	margin-bottom: 215px;
+}
+
+.arrow {
+	bottom: 25%;
+}
+
+/*Вопросы*/
+.move-main {
+	font-family: 'MuseoSansCyrl-100', sans-serif;
+	font-size: 1.6rem;
+	background: #f7f7f7;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.move-cont {
+	background: #fff;
+	margin-top: -90px;
+	margin-bottom: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 65px;
+	box-shadow: 0px 3px 3px #e4e4e4;
+}
+
+.move-cont h3 {
+	font-size: 1.7rem;
+	text-transform: none;
+	letter-spacing: 0px;
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 45px;
+	text-align: center;
+}
+
+.move-cont h3 span {
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+}
+
+.move__left img {
+	margin-top: 60px;
+	margin-bottom: 110px;
+	display: block;
+}
+
+.move__right p {
+	margin-top: 90px;
+	margin-bottom: 65px;
+}
+
+
+/* Адаптив */
+@media (max-width: 1199px) {
+	.move-cont {
+		background: #fff;
+		box-shadow: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.move-main {
+		background: #fff;
+	}
+}
+
+@media (max-width:991px) {
+	h1 {
+		margin-top: 100px;
+		margin-bottom: 205px;
+	}
+	
+	.arrow {
+		bottom: 25%;
+	}
+	.move__right, .move__left {
+		text-align: center;
+	}
+	.move__right_t {
+		display: block;
+	}
+
+	.move__right p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.move__right_b {
+		display: none;
+	}
+	.move__left img, .move__right img {
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	
+}
+
+@media (max-width:767px) {
+	h1 {
+		font-size: 3.7rem;
+		letter-spacing: 0.5rem;
+	}
+}
+@media (max-width: 400px) {
+	h1 {
+		font-size: 2.8rem;
+		letter-spacing: 0.4rem;
+
+	}
+}
+

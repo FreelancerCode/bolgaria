@@ -1,0 +1,220 @@
+.about.active {
+	visibility: hidden;
+}
+.tablet {
+	display: none;
+}
+header {
+	height: 100%;
+}
+
+h1 {
+	position: static;
+	font-size: 5.1rem;
+	letter-spacing: 2.5rem;
+	margin-top: 85px;
+	margin-bottom: 215px;
+}
+
+.arrow {
+	bottom: 30%;
+}
+
+.about-main {
+	background: #f7f7f7;
+}
+
+.about {
+	background-color: #fff;
+	margin-top: -85px;
+	margin-bottom: 85px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	box-shadow: 0px 3px 3px #e4e4e4;
+	text-align: center;
+
+}
+
+.about__text h3 span {
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+	font-size: 1.8rem;
+}
+.about__text h3 {
+	width: 90%;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0px;
+	font-family: 'MuseoSansCyrl-100', sans-serif;
+	font-size: 1.8rem;
+	margin: 0px auto 40px;
+
+}
+
+.about__number span {
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+	font-size: 3.9rem;
+	color: #23aae2;
+	text-transform: uppercase;
+}
+.about__number {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.about__happy {
+	font-family: 'MuseoSansCyrl-100', sans-serif;
+	font-size: 1.9rem;
+	color: #bdbdbd;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	padding-top: 25px;
+
+}
+
+.about__new span{
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+	font-size: 3rem;
+	color: #23aae2;
+	text-transform: uppercase;
+}
+
+.about__new {
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+.about__ready {
+	background-color: #23aae2;
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+	color: #fff;
+	font-size: 2.3rem;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+}
+.about__autor {
+	background-color: #f4f4f4;
+	padding-top: 32px;
+	box-shadow: 0px 3px 3px #e4e4e4;
+
+}
+.about__partner h2{
+	font-size: 2.9rem;
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+	margin-bottom: 50px;
+
+}
+
+.about__autor h3 {
+	font-family: 'MuseoSansCyrl-900', sans-serif;
+	font-size: 2.1rem;
+	text-transform: none;
+	margin-top: 26px;
+}
+
+.about__autor h3:after {
+	content: '';
+	display: block;
+	width: 37px;
+	height: 1px;
+	background-color: #c6c6c6;
+	margin: 16px auto;
+}
+.about__autor p {
+	font-family: 'MuseoSansCyrl-100', sans-serif;
+	font-size: 1.6rem;
+	text-align: left;
+	width: 85%;
+	height: 365px;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+}
+
+
+@media (max-width: 1199px) {
+	.desktop {
+		display: none;
+	}
+	.tablet {
+		display: block;
+	}
+	.about-main {
+		background: #fff;
+	}
+	.about {
+		margin-top: 0px;
+		box-shadow: none;
+	}
+	
+	.about__ready {
+		text-align: center;
+	}
+}
+
+/* Адаптив */
+@media (max-width: 991px) {
+	h1 {
+		margin-top: 100px;
+		margin-bottom: 140px;
+	}
+	
+	.arrow {
+		bottom: 15%;
+	}
+	.about {
+		margin-bottom: 0;
+		padding-bottom: 65px;
+	}
+	.about__text h3 {
+		width: 100%;
+	}
+	.about__happy {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.about__ready {
+		margin-top: 42px;
+	}
+	.about__autor {
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 767px) {
+	h1 {
+		margin-top: 100px;
+		margin-bottom: 190px;
+	}
+	
+	.arrow {
+		bottom: 20%;
+	}
+}
+@media (max-width: 530px) {
+	h1 {
+		font-size: 4.1rem;
+		letter-spacing: 2.5rem ;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 3.3rem;
+		letter-spacing: 2.5rem;
+	}
+}
+
+@media (max-width: 440px) {
+	h1 {
+		letter-spacing: 2.1rem;
+	}
+}
+
+@media (max-width: 400px) {
+	h1 {
+		letter-spacing: 1.3rem;
+	}
+}
